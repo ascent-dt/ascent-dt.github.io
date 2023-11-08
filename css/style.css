@@ -1903,9 +1903,3 @@ width: 99%;
   max-width: 300px; /* Adjust the max-width as needed */
 }
 
-/* Media Query for screens smaller than 768px (typical mobile screens) */
-@media (max-width: 768px) {
-  .team_area {
-    max-width: 100%; /* Expand to full width on smaller screens */
-  }
-}
