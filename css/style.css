@@ -1,5 +1,48 @@
 /* Pink Color: #df0031 */
 @charset "utf-8";
+/*To be added */
+@media (max-width: 768px) {
+  .inner_wrapper {
+    margin: 0 15px; /* Adjust the margin values as per your design preferences */
+  }
+}
+
+/*To be added */
+.carousel-caption {
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+/* Style the h3 element within the carousel caption */
+.carousel-caption h3 {
+    font-size: 36px;
+    color: white;
+}
+
+/* Define the media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .carousel-caption {
+	position: absolute;
+        bottom: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .carousel-caption h3 {
+        font-size: 20px;
+	color: white;
+    }
+
+   .carousel-caption h3 {
+        white-space: normal; /* Allow text to wrap */
+        text-align: center;
+        padding: 0 15px; /* Add padding to prevent text from overflowing */
+    }
+}
 
 /* Default styles for screens wider than 768px */
 .box-container {
