@@ -52,7 +52,8 @@
 
 @media (max-width: 768px) {
     .team_box {
-        display: block; /* Stack team_box on smaller screens for vertical alignment */
+        display: block; 
+	width:50%;
     }
 }
 
