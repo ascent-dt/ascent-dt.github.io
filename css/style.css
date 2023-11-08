@@ -44,6 +44,12 @@
     }
 }
 
+@media (max-width: 438px) {
+    .carousel-caption h3 {
+        font-size: 18px;
+    }
+}
+
 /* Default styles for screens wider than 768px */
 .box-container {
   display: flex;
