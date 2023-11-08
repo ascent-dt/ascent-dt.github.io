@@ -3,7 +3,7 @@
 /*To be added */
 @media (max-width: 768px) {
   .inner_wrapper {
-    margin: 0 15px; /* Adjust the margin values as per your design preferences */
+    margin: 0 20px; /* Adjust the margin values as per your design preferences */
   }
 }
 
@@ -47,6 +47,12 @@
 @media (max-width: 438px) {
     .carousel-caption h3 {
         font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .team_box {
+        display: block; /* Stack team_box on smaller screens for vertical alignment */
     }
 }
 
