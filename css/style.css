@@ -6,6 +6,12 @@
     margin: 0 20px; /* Adjust the margin values as per your design preferences */
   }
 }
+@media (max-width: 768px) {
+    /* Show the navbar when the screen is smaller */
+    #main-nav {
+        display: block;
+    }
+}
 
 .carousel-caption {
     position: absolute;
