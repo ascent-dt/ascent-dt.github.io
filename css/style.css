@@ -6,24 +6,6 @@
     margin: 0 20px; /* Adjust the margin values as per your design preferences */
   }
 }
-@media (max-width: 768px) {
-    .navbar {
-        /* Modify the styles for smaller screens here */
-        background-color: #fff; /* Change the background color, for example */
-        /* Add any other styles suitable for smaller screens */
-    }
-    
-    /* You may want to hide the navigation items when the screen is small */
-    #main-nav {
-        display: none;
-    }
-    
-    /* Add styles for a mobile-friendly navigation icon (hamburger menu) */
-    #nav-toggle {
-        display: block; /* Display the hamburger menu icon */
-        /* Add any other styles, like icon positioning, color, etc. */
-    }
-}
 
 .carousel-caption {
     position: absolute;
