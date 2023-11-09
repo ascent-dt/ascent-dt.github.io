@@ -8,7 +8,6 @@
 }
 
 /* Default styles for larger screens */
-/* Default styles for larger screens */
 .navbar-collapse {
     display: flex !important;
     justify-content: center;
@@ -25,6 +24,7 @@
 
     .navbar-nav li {
         margin: 0 10px; /* Add some spacing between each navigation item */
+        font-size: 16px; /* Adjust the font size for smaller screens */
     }
 
     .navbar-header {
@@ -43,6 +43,7 @@
         display: flex; /* Display the navbar content when the toggle button is clicked */
     }
 }
+
 
 .carousel-caption {
     position: absolute;
