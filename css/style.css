@@ -560,12 +560,6 @@ a.read_more2:hover {
         opacity: 1; /* Set full opacity for the active indicator */
     }	
 
-/*
-.carousel-caption.h3 {
-	top: 50%;
-transform: translateY(-50%);
-	bottom: initial;
-}*/
 
 .carousel-caption.h3 {
   top: 50%;
