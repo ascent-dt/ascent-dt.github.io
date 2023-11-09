@@ -16,7 +16,7 @@
 @media (max-width: 768px) {
 .carousel-indicators {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 50%;
     z-index: 15;
     width: 60%;
