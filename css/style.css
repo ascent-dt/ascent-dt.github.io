@@ -398,13 +398,12 @@ aboutUs {
     /*color: #df0031;*/
    color: #000000;
     background-color: transparent;
-    font-size: large;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover , .navbar-inverse .navbar-nav > .active > a:focus {
    color: #df0031; 
     background-color: transparent;
-    /*font-size: large;*/
+
 }
 
 .navStyle > li.active > a,
