@@ -7,6 +7,31 @@
   }
 }
 
+.navbar-collapse {
+    display: flex !important;
+    justify-content: center;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        display: none !important; /* Hide the navbar by default on small screens */
+    }
+
+    .navbar-toggle {
+        display: block; /* Display the toggle button on small screens */
+    }
+
+    .navbar-nav {
+        flex-direction: column; /* Stack the navigation links vertically */
+        text-align: center;
+    }
+
+    .navbar-nav li {
+        display: block;
+        margin: 10px 0; /* Add some spacing between each navigation item */
+    }
+}
 
 .carousel-caption {
     position: absolute;
