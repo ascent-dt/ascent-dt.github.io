@@ -20,6 +20,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap; /* Allow navigation items to wrap to the next line */
     }
 
     .navbar-nav li {
@@ -42,8 +43,6 @@
         display: flex; /* Display the navbar content when the toggle button is clicked */
     }
 }
-
-
 
 .carousel-caption {
     position: absolute;
