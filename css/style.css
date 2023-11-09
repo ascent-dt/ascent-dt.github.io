@@ -1934,7 +1934,7 @@ width: 99%;
 }
 
 .team_area {
-  margin: 20px;
+ /* margin: 20px;*/
   text-align: left; /* Adjust text alignment as needed */
   flex: 1;
   max-width: 300px; /* Adjust the max-width as needed */
