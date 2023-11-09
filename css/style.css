@@ -16,17 +16,16 @@
 /* Styles for smaller screens */
 @media (max-width: 768px) {
     .navbar-nav {
-        flex-direction: column; /* Stack the navigation links vertically */
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .navbar-nav li {
-        display: block;
-        margin: 10px 0; /* Add some spacing between each navigation item */
+        margin: 0 10px; /* Add some spacing between each navigation item */
     }
 
     .navbar-header {
-        width: 100%; /* Make the header take up the full width of the screen */
         text-align: center;
     }
 
@@ -39,13 +38,10 @@
     }
 
     .navbar-collapse.in {
-        display: block; /* Display the navbar content when the toggle button is clicked */
-    }
-
-    .navbar-nav {
-        width: 100%; /* Make the navigation links take up the full width of the screen */
+        display: flex; /* Display the navbar content when the toggle button is clicked */
     }
 }
+
 
 
 .carousel-caption {
