@@ -371,7 +371,7 @@ aboutUs {
 
 .navStyle ul li a {
     display: block;
-    font-size: 18px;
+    /*font-size: 18px;*/
     color: #222222;
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
