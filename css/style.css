@@ -1016,7 +1016,7 @@ a.contact_btn:hover {
 
 .team_box_shadow a {
     display: block;
-    /*width: 265px;*/
+    width: 100%;
     height: 100%;
     border-bottom: 4px solid #df0031;
 }
