@@ -91,7 +91,6 @@
    .carousel-caption h3 {
         white-space: normal; /* Allow text to wrap */
         text-align: justify;
-        /*padding: 0 10px; /* Add padding to prevent text from overflowing */
     }
 }
 
