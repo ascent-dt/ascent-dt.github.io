@@ -64,10 +64,11 @@
 
 .carousel-caption {
     position: absolute;
-    bottom: 45%;
+    bottom: 55%;
     left: 50%;
-    width: 60%;
-    transform: translateX(-50%);
+    width: 70%;
+   /* transform: translateX(-50%); */
+      transform: translate(-50%, -50%);
     text-align: center;
 }
 
