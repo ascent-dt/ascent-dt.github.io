@@ -7,6 +7,7 @@
   }
 }
 
+/* Default styles for larger screens */
 .navbar-collapse {
     display: flex !important;
     justify-content: center;
@@ -14,14 +15,6 @@
 
 /* Styles for smaller screens */
 @media (max-width: 768px) {
-    .navbar-collapse {
-        display: none !important; /* Hide the navbar by default on small screens */
-    }
-
-    .navbar-toggle {
-        display: block; /* Display the toggle button on small screens */
-    }
-
     .navbar-nav {
         flex-direction: column; /* Stack the navigation links vertically */
         text-align: center;
@@ -31,7 +24,29 @@
         display: block;
         margin: 10px 0; /* Add some spacing between each navigation item */
     }
+
+    .navbar-header {
+        width: 100%; /* Make the header take up the full width of the screen */
+        text-align: center;
+    }
+
+    .navbar-toggle {
+        display: block; /* Display the toggle button on small screens */
+    }
+
+    .navbar-collapse {
+        display: none; /* Hide the navbar content by default on small screens */
+    }
+
+    .navbar-collapse.in {
+        display: block; /* Display the navbar content when the toggle button is clicked */
+    }
+
+    .navbar-nav {
+        width: 100%; /* Make the navigation links take up the full width of the screen */
+    }
 }
+
 
 .carousel-caption {
     position: absolute;
