@@ -78,6 +78,10 @@
     color: white;
 }
 
+.slide-title {
+            width: 100%;
+            display: block;
+        }
 /* Define the media query for screens smaller than 768px */
 @media (max-width: 768px) {
     .carousel-caption {
