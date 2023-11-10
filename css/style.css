@@ -81,8 +81,7 @@
 	position: absolute;
         bottom: 60%;
 	left: 50%;
-	  /* transform: translateX(-50%); */
-      transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
         text-align: center;
     }
 
@@ -90,7 +89,6 @@
     position: relative; /* Change position to relative */
     font-size: 20px;
     bottom: 60%;
-    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     white-space: normal; /* Allow text to wrap */
