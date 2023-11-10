@@ -25,10 +25,8 @@
     text-align: center;
     list-style: none;
     align-items: center;
+}	
 }
-	
-}
-
 
 /* Styles for smaller screens */
 @media (max-width: 768px) {
@@ -78,27 +76,24 @@
     color: white;
 }
 
-.slide-title {
-            width: 100%;
-            display: block;
-        }
-/* Define the media query for screens smaller than 768px */
 @media (max-width: 768px) {
     .carousel-caption {
 	position: absolute;
         bottom: 60%;
 	left: 50%;
-	transform: translateX(-50%);
+	  /* transform: translateX(-50%); */
+      transform: translate(-50%, -50%);
         text-align: center;
     }
 
     .carousel-caption h3 {
         font-size: 20px;
+	 bottom: 60%;
+	left: 50%;
+	  /* transform: translateX(-50%); */
+        transform: translate(-50%, -50%);
 	color: white;
-    }
-
-   .carousel-caption h3 {
-        white-space: normal; /* Allow text to wrap */
+	 white-space: normal; /* Allow text to wrap */
         text-align: center;
     }
 }
