@@ -46,12 +46,17 @@
         text-align: center;
     }
 
+    /* Remove the toggle button styles */
     .navbar-toggle {
-        display: block; /* Display the toggle button on small screens */
+        display: none;
     }
 
- 
+    /* Display the navbar content by default on small screens */
+    .navbar-collapse {
+        display: flex;
+    }
 }
+
 
 
 .carousel-caption {
