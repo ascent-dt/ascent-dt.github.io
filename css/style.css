@@ -312,7 +312,7 @@ p {
   background-color: white;
 }
 
-aboutUs, news, research, dataset, team, industry, contact {
+#aboutUs, #news, #research, #dataset, #team, #industry, #contact{
   scroll-margin-top: 100px; /* Adjust this value as needed */
 }
 
