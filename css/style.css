@@ -50,13 +50,7 @@
         display: block; /* Display the toggle button on small screens */
     }
 
-    .navbar-collapse {
-        display: none; /* Hide the navbar content by default on small screens */
-    }
-
-    .navbar-collapse.in {
-        display: flex; /* Display the navbar content when the toggle button is clicked */
-    }
+ 
 }
 
 
