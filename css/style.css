@@ -27,11 +27,7 @@
     align-items: center;
 }	
 }
-@media (max-width: 768px) {
-    .scroll-link {
-        scroll-padding: 50px; /* Adjust the padding for smaller screens */
-    }
-} 
+ 
 /* Styles for smaller screens */
 @media (max-width: 768px) {
     .navbar-nav {
@@ -316,7 +312,7 @@ p {
   background-color: white;
 }
 
-aboutUs {
+aboutUs, news, research, dataset, team, industry, contact {
   scroll-margin-top: 100px; /* Adjust this value as needed */
 }
 
