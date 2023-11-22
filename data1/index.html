@@ -7,32 +7,60 @@
     <title>News 1 Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
         }
 
         header {
-            background-color: black;
+            background-color: #333;
             color: white;
-            padding: 10px;
+            padding: 20px 0;
             text-align: center;
         }
 
         h1 {
-            text-align: center;
+            margin: 0;
         }
 
         .photo-container {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
             padding: 20px;
         }
 
         .photo {
-            margin: 10px;
-            max-width: 300px;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .photo:hover {
+            transform: scale(1.05);
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -48,13 +76,14 @@
         <img class="photo" src="https://spectrum.ieee.org/media-library/illuminated-electric-vehicle-charging-stations-at-night-in-monterey-park-california.jpg?id=32246419&width=400&height=266" alt="Placeholder Photo 3">
     </section>
 
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
-        ante dapibus diam.
-    </p>
+    <div class="content">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus
+            diam.
+        </p>
 
-    <!-- Replace the link with your actual GitHub repository link -->
-    <p>For more information, check out the <a href="https://github.com/ascent-dt" target="_blank">GitHub repository</a>.</p>
+        <p>For more information, check out the <a href="https://github.com/ascent-dt" target="_blank">GitHub repository</a>.</p>
+    </div>
 </body>
 
 </html>
