@@ -29,7 +29,7 @@
 }
 @media (max-width: 768px) {
     .scroll-link {
-        scroll-padding: 20px; /* Adjust the padding for smaller screens */
+        scroll-padding: 50px; /* Adjust the padding for smaller screens */
     }
 } 
 /* Styles for smaller screens */
