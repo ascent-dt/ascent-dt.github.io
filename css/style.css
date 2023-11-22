@@ -1092,7 +1092,7 @@ a.contact_btn:hover {
     color: #dd4b39;
 }
  
-#aboutUs {
+#aboutUs, #news, #research, #dataset, #team, #industry, #contact {
     padding-top: 60px;
     padding-bottom: 30px;
 }
