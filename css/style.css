@@ -26,6 +26,12 @@
     list-style: none;
     align-items: center;
 }	
+
+#aboutUs, #news, #research, #dataset, #team, #industry, #contact {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    scroll-margin-top: 100px;
+}
 }
  
 /* Styles for smaller screens */
@@ -312,9 +318,12 @@ p {
   background-color: white;
 }
 
-#aboutUs, #news, #research, #dataset, #team, #industry, #contact{
-  scroll-margin-top: 100px; /* Adjust this value as needed */
+#aboutUs, #news, #research, #dataset, #team, #industry, #contact {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    scroll-margin-top: 100px;
 }
+
 
 /* Header Styles
 ---------------------------------*/
