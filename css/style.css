@@ -5,6 +5,12 @@
   .inner_wrapper {
     margin: 0 20px; /* Adjust the margin values as per your design preferences */
   }
+	
+#aboutUs, #news, #research, #dataset, #team, #industry, #contact {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    scroll-margin-top: 100px;
+}
 }
 
 /* Default styles for larger screens */
@@ -26,12 +32,6 @@
     list-style: none;
     align-items: center;
 }	
-
-#aboutUs, #news, #research, #dataset, #team, #industry, #contact {
-    padding-top: 60px;
-    padding-bottom: 30px;
-    scroll-margin-top: 100px;
-}
 }
  
 /* Styles for smaller screens */
@@ -197,19 +197,7 @@ a, a:hover, a:active {
     justify-content: center;
 }
 
-/*
-.box-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  margin-left: 170px;
-  margin-right: 170px;
-  padding: 0;
-}
 
-*/
 
 .box {
   width: 260px;
@@ -308,20 +296,13 @@ p {
 }
 
 #aboutUs, #news, #research, #dataset, #team, #industry, #contact {
-    padding-top: 20px;/* Adjust the value as needed */
+    padding-top: 20px;
     padding-bottom: 10px;
+    scroll-margin-top: 100px;
 }
 
-
-		}
 #funding-section {
   background-color: white;
-}
-
-#aboutUs, #news, #research, #dataset, #team, #industry, #contact {
-    padding-top: 60px;
-    padding-bottom: 30px;
-    scroll-margin-top: 100px;
 }
 
 
@@ -381,9 +362,6 @@ p {
     margin: 0 5px;
 }
 
-.navStyle ul li:first-child {
-	/*margin:0px;*/;
-}
 
 .navStyle ul li:last-child {
     margin: 0 0 0 5px;
@@ -391,11 +369,9 @@ p {
 
 .navStyle ul li a {
     display: block;
-    /*font-size: 18px;*/
     color: #222222;
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
-    /* text-transform: uppercase; */
     font-weight: 600;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -743,17 +719,7 @@ a.contact_btn:hover {
     text-decoration: none;
     border: #df0031 solid 1px;
 }
-/*
-.section-title h2 {
-    color: #222222;
-    font-family: 'Raleway', sans-serif;
-    font-size: 34px;
-    letter-spacing: -1px;
-    margin: 0 0 15px;
-    text-align: center;
-    text-transform: uppercase;
-}
-*/
+
 
 
 .section-title span {
@@ -1101,11 +1067,6 @@ a.contact_btn:hover {
     color: #dd4b39;
 }
  
-#aboutUs, #news, #research, #dataset, #team, #industry, #contact {
-    padding-top: 60px;
-    padding-bottom: 30px;
-}
-
 /* Contact
 ---------------------------------*/
 .page_section.contact {
