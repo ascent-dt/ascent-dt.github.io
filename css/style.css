@@ -310,6 +310,7 @@ p {
 ---------------------------------*/
 
 #header_wrapper {
+    width: auto !important;
     background: #ffffff;
     padding: 20px 0px;
 }
