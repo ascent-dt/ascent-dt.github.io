@@ -45,7 +45,6 @@
 
     .navbar-nav li {
         margin: 0 10px; /* Add some spacing between each navigation item */
-        font-size: 16px; /* Adjust the font size for smaller screens */
     }
 
     .navbar-header {
@@ -60,10 +59,6 @@
     /* Display the navbar content by default on small screens */
     .navbar-collapse {
         display: flex;
-    }
-
-    .navStyle ul li a{
-	font-size: 14px !important;
     }
 	
 }
