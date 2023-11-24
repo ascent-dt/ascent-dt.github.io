@@ -295,10 +295,7 @@ p {
     margin: 0;
 }
 
-#aboutUs, #news, #research, #dataset, #team, #industry, #contact {
-    padding-bottom: 10px;
-    scroll-margin-top: 100px;
-}
+
 
 #funding-section {
   background-color: white;
