@@ -61,6 +61,11 @@
     .navbar-collapse {
         display: flex;
     }
+
+    .navStyle ul li a{
+	font-size: 14px !important;
+    }
+	
 }
 
 
