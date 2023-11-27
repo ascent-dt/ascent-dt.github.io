@@ -308,7 +308,8 @@ p {
 #header_wrapper {
     /*width: auto !important;*/
     background: #ffffff;
-    padding: 20px 0px;
+    padding-top: 20px;
+    padding-bottom: 0;
 }
 
 .header_box {
