@@ -42,7 +42,10 @@
         align-items: center;
         flex-wrap: wrap; /* Allow navigation items to wrap to the next line */
     }
-
+    .navStyle ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
     .navbar-nav li {
         margin: 0 10px; /* Add some spacing between each navigation item */
     }
