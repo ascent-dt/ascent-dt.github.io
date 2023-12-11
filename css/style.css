@@ -320,6 +320,7 @@ p {
 .header_box {
     position: relative;
     justify-content: center;
+    height: 100%;
 }
 
 .logo {
