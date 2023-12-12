@@ -348,7 +348,7 @@ p {
 .navbar {
     border: 0px solid #fff;
     min-height: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
