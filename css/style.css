@@ -314,7 +314,7 @@ p {
 ---------------------------------*/
 
 #header_wrapper {
-    /*width: auto !important;*/
+    width: auto !important;
     background: #ffffff;
     padding-top: 20px;
     padding-bottom: 10px;
