@@ -29,7 +29,10 @@
     display: flex !important;
     justify-content: center;
 }
-
+#carousel-example-generic {
+  margin-top: -110px; /* Adjust this value to the height of your navigation bar */
+  padding-top: 110px; /* Same value to push the content down */
+}
 @media (max-width: 768px) {
 .carousel-indicators {
     position: absolute;
