@@ -313,17 +313,6 @@ p {
 
 /* Header Styles
 ---------------------------------*/
-#header_wrapper {
-  z-index: 1000; /* A higher z-index means this will render on top */
-  position: relative; /* Needed for z-index to take effect */
-}
-
-#carousel-example-generic {
-  margin-top: 110px; /* Adjust to the height of your header */
-  padding-top: 1px; /* Sometimes adding a small padding can help fix issues with collapsing margins */
-  z-index: 1; /* Lower z-index than the header */
-  position: relative; /* To apply z-index correctly */
-}
 
 #header_wrapper {
     background: #ffffff;
