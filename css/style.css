@@ -7,7 +7,7 @@
   }
 	
 #aboutUs, #news, #research, #dataset, #team, #industry, #contact {
-    padding-top: 20px;
+    /*padding-top: 20px;*/
     padding-bottom: 20px;
     scroll-margin-top: 100px;
 }
