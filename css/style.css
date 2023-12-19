@@ -315,6 +315,7 @@ p {
 ---------------------------------*/
 
 #header_wrapper {
+    z-index: 1000;
     background: #ffffff;
     padding-top: 20px;
     padding-bottom: 10px;
