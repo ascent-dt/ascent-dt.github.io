@@ -6,12 +6,18 @@
     margin: 0 20px; /* Adjust the margin values as per your design preferences */
   }
 	
-#aboutUs, #news, #research, #dataset, #team, #industry, #contact {
+#aboutUs, #news, #research, #dataset, #team, #industry {
     padding-top: 15px;
     padding-bottom: 20px;
     scroll-margin-top: 100px;
 }
 
+#contact {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    scroll-margin-top: 100px;
+}
+	
 #carousel-example-generic{
     scroll-margin-top: 100px;
 }
