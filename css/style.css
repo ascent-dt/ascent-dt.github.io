@@ -5,6 +5,11 @@
   .inner_wrapper {
     margin: 0 20px; /* Adjust the margin values as per your design preferences */
   }
+.carousel-control {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto;
+}
 	
 #aboutUs, #news, #research, #dataset, #team, #industry {
     padding-top: 15px;
