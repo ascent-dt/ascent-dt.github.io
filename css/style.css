@@ -9,13 +9,13 @@
 #aboutUs, #news, #research, #dataset, #team, #industry {
     padding-top: 15px;
     padding-bottom: 20px;
-    scroll-margin-top: 100px;
+    scroll-margin-top: 90px;
 }
 
 #contact {
     padding-top: 20px;
     padding-bottom: 20px;
-    scroll-margin-top: 100px;
+    scroll-margin-top: 90px;
 }
 	
 #carousel-example-generic{
@@ -323,7 +323,7 @@ p {
 ---------------------------------*/
 
 #header_wrapper {
-    height: 110px; /*added*/
+   /* height: 110px; /*added*/
     background: #ffffff;
     padding-top: 20px;
     padding-bottom: 10px;
